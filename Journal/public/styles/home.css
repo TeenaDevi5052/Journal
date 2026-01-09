@@ -1,0 +1,53 @@
+    h1{
+        background-color: rgb(46, 6, 88);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    height: 50px;
+    min-width: 500px;
+    }
+    h4{
+            text-align: center;
+            color:white;
+            font-size:20px;
+    }
+    input{
+    height: 50px;
+    width: 90px;
+    border-radius:20px;
+    background-color: blueviolet;
+    color:white;
+    font-weight:700;
+    }
+    input:hover{
+        border:2px solid black;
+        color:blueviolet;
+        background-color: white;;
+    }
+     body{
+    background-image: linear-gradient(to right,rgb(193, 142, 227),rgb(210, 130, 224));
+    display:flex;
+        align-items:center;
+        flex-direction: column;
+    }
+    .card p{
+        font-size: 30px;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 30px;
+    min-width: 470px;
+    text-align: center;
+        
+    }
+    .content{
+        background-color: rgb(204, 183, 218);
+        color:black;
+        text-align: center;
+        font-weight:700;
+        font-family:'Courier New', Courier, monospace;
+        border-radius:60px;
+    }
+    
+    .pTag{
+        min-width: 500px;
+    }

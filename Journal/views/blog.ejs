@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Write Blog</title>
+    <link rel="stylesheet" href="/styles/blog.css">
+
+</head>
+<body>
+  <h1>Express Your Thoughts! 💡</h1>
+  
+  <form action="/blog" method="post">
+    <input type="text" placeholder="Name" name="topic" required /><br /><br />
+    <textarea cols="40" rows="10" placeholder="Yourself..." name="thoughts"></textarea><br /><br />
+    <input class="btn" type="submit" value="View">
+  </form>
+
+  <% if(locals.noReturn) { %>
+    <p><%= noReturn %></p>
+  <% } %>
+</body>
+</html>
